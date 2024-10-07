@@ -1,10 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// imports react library into the file
+import React from "react";
+// ReactDOM class from lib to render components into the browser
+import ReactDOM from "react-dom/client";
+// hub (App.js) is imported. <App />
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// ReactDOM has method render. Components and document element as parameters
+// Component is: <App /> , document elemets is <div> with id root
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
